@@ -137,3 +137,16 @@ The application will crawl the repository, analyze the codebase structure, gener
   </a>
 </div>
 <br>
+
+## 🐳 Running with Docker
+
+To run this project in a Docker container:
+
+### 1. Build the Docker image
+  ```bash
+docker build -t pocketflow-app .
+```
+
+### 2.Run the conatainer
+  ```bash
+docker run -it --rm pocketflow-app
